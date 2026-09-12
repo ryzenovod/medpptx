@@ -1,4 +1,21 @@
 (() => {
+  const hotfix = document.createElement('style');
+  hotfix.textContent = `
+    .skills-list li::before{grid-column:1;grid-row:1 / span 2}
+    .skills-list li>b,.skills-list li>span{grid-column:2}
+    @media (min-width:761px) and (max-height:900px){
+      .skills-layout{grid-template-columns:1fr 1fr;gap:48px;margin-top:20px}
+      .skills-layout h2{font-size:clamp(36px,3.7vw,64px)}
+      .skills-lead{font-size:clamp(16px,1.1vw,20px);margin-top:24px!important}
+      .skills-list li{padding:10px 0}
+      .skills-list b{font-size:clamp(16px,1.05vw,20px)}
+      .skills-list span{font-size:12px;line-height:1.25}
+      .skills-foot{bottom:28px}
+      .skills-foot span{padding:10px 14px}
+    }
+  `;
+  document.head.appendChild(hotfix);
+
   const slides = [...document.querySelectorAll('.slide')];
   const progress = document.getElementById('progressFill');
   const currentEl = document.getElementById('currentSlide');
