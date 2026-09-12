@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f2d69" />
+  <meta name="description" content="Технологические платформы здравоохранения — 2035. Россия и мир: инфраструктура, ИИ, данные и управленческие компетенции." />
+  <title>Технологические платформы здравоохранения — 2035</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="deck" id="deck" aria-live="polite">
+    <header class="chrome" aria-label="Навигация презентации">
+      <div class="hse-wordmark" aria-label="НИУ ВШЭ"><span>ВШЭ</span></div>
+      <div class="chrome-title">Технологические платформы здравоохранения — 2035</div>
+      <div class="chrome-actions">
+        <button class="chrome-btn" id="sourceBtn" type="button" aria-label="Источники">S</button>
+        <button class="chrome-btn" id="fullscreenBtn" type="button" aria-label="Полноэкранный режим">F</button>
+      </div>
+    </header>
+
+    <main class="slides" id="slides">
+      <section class="slide slide--title is-active" data-slide="1" data-title="Технологические платформы здравоохранения — 2035">
+        <div class="title-grid">
+          <div class="title-main">
+            <div class="kicker">Здравоохранение · данные · управление</div>
+            <h1>Технологические платформы<br>здравоохранения — 2035</h1>
+            <p class="title-sub">Россия и мир: что уже построено, что меняется и какие компетенции понадобятся управленцу.</p>
+          </div>
+          <div class="title-pattern" aria-hidden="true">
+            <div class="pattern-circle pc-1"></div><div class="pattern-circle pc-2"></div><div class="pattern-circle pc-3"></div>
+            <div class="pattern-block pb-1"></div><div class="pattern-block pb-2"></div>
+          </div>
+        </div>
+        <div class="title-footer"><span>НИУ ВШЭ</span><span>2026</span></div>
+      </section>
+
+      <section class="slide" data-slide="2" data-title="Почему это стало системной задачей">
+        <div class="eyebrow">01 · Контекст</div>
+        <h2>Проблема не в нехватке приложений.<br><span class="accent">Проблема — в производительности системы.</span></h2>
+        <div class="stats-3">
+          <article class="stat-card stat-card--navy">
+            <div class="stat-value">11,1 <small>млн</small></div>
+            <p>прогнозируемый дефицит медработников в мире к 2030 году</p>
+            <div class="stat-source">ВОЗ [2]</div>
+          </article>
+          <article class="stat-card">
+            <div class="stat-value">72,8</div>
+            <p>года — ожидаемая продолжительность жизни в России в 2024 году</p>
+            <div class="mini-target"><span>78</span><i>2030</i><span>81</span><i>2036</i></div>
+            <div class="stat-source">Росстат / Указ №309 [3–4]</div>
+          </article>
+          <article class="stat-card">
+            <div class="stat-value">7 из 10</div>
+            <p>врачей в США видят в ИИ способ автоматизировать задачи, ведущие к выгоранию</p>
+            <div class="stat-source">AMA [10]</div>
+          </article>
+        </div>
+        <p class="slide-thesis">Цифровая платформа нужна не ради цифровизации как таковой: она должна связывать данные, маршруты и решения так, чтобы система работала быстрее и точнее.</p>
+      </section>
+
+      <section class="slide" data-slide="3" data-title="ИИ уже стал частью практики">
+        <div class="eyebrow">02 · Мир сегодня</div>
+        <div class="split-head">
+          <h2>ИИ уже стал частью практики.<br><span class="accent">Регулирование догоняет.</span></h2>
+          <p>Основной рост пока происходит в прикладных, узких задачах — особенно в визуализации, документации и работе с медицинской информацией.</p>
+        </div>
+        <div class="world-grid">
+          <article class="chart-panel">
+            <div class="panel-label">Врачи США, использующие ИИ в работе</div>
+            <div class="bars" aria-label="38 процентов в 2023, 66 в 2024, 81 в 2026">
+              <div class="bar-col"><div class="bar" style="--v:38"><b>38%</b></div><span>2023</span></div>
+              <div class="bar-col"><div class="bar" style="--v:66"><b>66%</b></div><span>2024</span></div>
+              <div class="bar-col"><div class="bar" style="--v:81"><b>81%</b></div><span>2026</span></div>
+            </div>
+            <div class="panel-source">AMA [10–11]</div>
+          </article>
+          <article class="metric-panel metric-panel--blue">
+            <div class="metric-number">1 524</div>
+            <div class="metric-title">записи об авторизации ИИ-медизделий FDA</div>
+            <div class="metric-note">с 1995 по март 2026</div>
+            <div class="metric-rule"></div>
+            <div class="metric-small"><b>76%</b> устройств, одобренных в IV кв. 2025 года, относятся к радиологии.</div>
+            <div class="panel-source">[5–6]</div>
+          </article>
+          <article class="metric-panel">
+            <div class="panel-label">Граница текущего рынка</div>
+            <p class="quote-like">По данным Исследовательской службы Конгресса США, на июнь 2026 года генеративные AI/LLM-медизделия ещё не были авторизованы FDA.</p>
+            <div class="panel-source">CRS [9]</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="slide" data-slide="4" data-title="Технология не равна эффекту">
+        <div class="eyebrow">03 · Доказательства</div>
+        <h2>Технология ≠ эффект.<br><span class="accent">Результат появляется только после перестройки процесса.</span></h2>
+        <div class="evidence-grid">
+          <article class="evidence-card">
+            <div class="evidence-index">A</div>
+            <div>
+              <h3>Ambient AI scribe</h3>
+              <p>В рандомизированном исследовании UCLA сервис Nabla сократил время на запись о приёме примерно на 41 секунду.</p>
+              <div class="before-after"><span>4:30</span><i>→</i><strong>3:49</strong></div>
+              <p class="fine">Инструмент использовали лишь в ~30–34% визитов; клинически значимые неточности отмечались «время от времени».</p>
+            </div>
+            <div class="panel-source">NEJM AI [13]</div>
+          </article>
+          <article class="evidence-card evidence-card--dark">
+            <div class="evidence-index">B</div>
+            <div>
+              <h3>ИИ в разработке лекарств</h3>
+              <p>Rentosertib: и мишень TNIK, и структура молекулы найдены с помощью генеративного ИИ.</p>
+              <div class="trial-line"><strong>+98,4 мл</strong><span>FVC за 12 недель на дозе 60 мг</span></div>
+              <div class="trial-line trial-line--muted"><strong>−20,3 мл</strong><span>плацебо</span></div>
+              <p class="fine">Фаза III начата в июле 2026 года.</p>
+            </div>
+            <div class="panel-source">Nature Medicine / Insilico [14–15]</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="slide" data-slide="5" data-title="Государства строят инфраструктуру">
+        <div class="eyebrow">04 · Платформы</div>
+        <h2>Государства строят не набор сервисов.<br><span class="accent">Они строят общий слой данных и доступа.</span></h2>
+        <div class="timeline">
+          <div class="timeline-years"><span>2027</span><span>2028</span><span>2029</span><span>2030</span><span>2031</span><span>2035</span></div>
+          <div class="lane"><div class="lane-name">Англия</div><div class="lane-track"><span class="dot d27">ИИ-скрайбы</span><span class="dot d28">NHS App</span><span class="dot d35">wearables</span><div class="lane-line"></div></div></div>
+          <div class="lane"><div class="lane-name">ЕС</div><div class="lane-track"><span class="dot d27">EHDS</span><span class="dot d29">сводка + eRx</span><span class="dot d31">снимки, анализы, геномика</span><div class="lane-line"></div></div></div>
+          <div class="lane"><div class="lane-name">Китай</div><div class="lane-track"><span class="dot d30">ИИ в первичном звене</span><div class="lane-line"></div></div></div>
+        </div>
+        <p class="slide-thesis">Общий вектор один: единая запись, цифровой вход для пациента, интероперабельные данные и встроенный в клинический процесс ИИ.</p>
+        <div class="footer-source">NHS [16–18] · EHDS [20–21, 43] · China NHC [22]</div>
+      </section>
+
+      <section class="slide" data-slide="6" data-title="Россия: фундамент платформы построен">
+        <div class="eyebrow">05 · Россия сегодня</div>
+        <div class="split-head">
+          <h2>Базовый цифровой контур<br><span class="accent">уже существует.</span></h2>
+          <p>Задача следующего этапа — перейти от обмена документами к данным, пригодным для аналитики, ИИ и управления.</p>
+        </div>
+        <div class="ru-metrics">
+          <article><strong>100%</strong><span>государственных и муниципальных медорганизаций с МИС, обменивающихся данными с ЕГИСЗ</span></article>
+          <article><strong>1,75 млрд+</strong><span>электронных медицинских документов в ЕГИСЗ</span></article>
+          <article><strong>15 млн+</strong><span>телемедицинских консультаций в 2024 году</span></article>
+          <article><strong>85</strong><span>субъектов РФ, где применяются ИИ-изделия и сервисы</span></article>
+        </div>
+        <div class="ru-strip">
+          <div><b>59</b><span>зарегистрированных ИИ-медизделий к августу 2026</span></div>
+          <div><b>74 региона</b><span>подключены к межрегиональной платформе МосМедИИ</span></div>
+          <div><b>16 млн+</b><span>исследований регионов обработано с ИИ к июлю 2026</span></div>
+        </div>
+        <div class="footer-source">Стратегия развития здравоохранения до 2030 [23] · Росздравнадзор [24–27] · МосМедИИ [29–30]</div>
+      </section>
+
+      <section class="slide" data-slide="7" data-title="Главный разрыв — не в инфраструктуре">
+        <div class="eyebrow">06 · Разрыв</div>
+        <h2>Главный разрыв — не в инфраструктуре.<br><span class="accent">Он в количестве зрелых решений и доказанном эффекте.</span></h2>
+        <div class="gap-grid">
+          <article class="gap-number">
+            <div class="gap-label">ИИ-медизделия</div>
+            <div class="gap-compare"><span><b>59</b><i>Россия</i></span><em>vs</em><span><b>1 524</b><i>FDA</i></span></div>
+            <p>* Методики учёта различаются; сравнение показывает порядок масштаба, а не прямую эквивалентность реестров.</p>
+          </article>
+          <article class="gap-list">
+            <div class="gap-col"><h3>Фундамент есть</h3><ul><li>ЕГИСЗ и МИС</li><li>телемедицина</li><li>межрегиональные платформы</li><li>стратегические цели до 2030–2035</li></ul></div>
+            <div class="gap-col gap-col--need"><h3>Не хватает</h3><ul><li>валидированных продуктов</li><li>данных вместо PDF-документов</li><li>измеримого эффекта в рутине</li><li>пострегистрационного мониторинга</li></ul></div>
+          </article>
+        </div>
+        <div class="footer-source">FDA / Paragon [5] · Росздравнадзор [24–27] · авторский вывод доклада</div>
+      </section>
+
+      <section class="slide" data-slide="8" data-title="Пациент 2035">
+        <div class="eyebrow">07 · Сценарий 2035</div>
+        <h2>Для пациента платформа становится<br><span class="accent">не интерфейсом, а непрерывным контуром помощи.</span></h2>
+        <div class="journey">
+          <div class="journey-step"><div class="step-n">01</div><h3>Сигналы</h3><p>Носимые устройства, лаборатория, история обращений.</p></div>
+          <div class="journey-arrow">→</div>
+          <div class="journey-step"><div class="step-n">02</div><h3>Профиль</h3><p>Единая запись и связный цифровой профиль.</p></div>
+          <div class="journey-arrow">→</div>
+          <div class="journey-step"><div class="step-n">03</div><h3>Риск</h3><p>Раннее выявление и персонализированные рекомендации.</p></div>
+          <div class="journey-arrow">→</div>
+          <div class="journey-step"><div class="step-n">04</div><h3>Помощь</h3><p>Удалённый мониторинг, клиника, телемедицина — в одном маршруте.</p></div>
+          <div class="journey-arrow">→</div>
+          <div class="journey-step"><div class="step-n">05</div><h3>Обратная связь</h3><p>Результат лечения возвращается в данные и улучшает следующий выбор.</p></div>
+        </div>
+        <div class="world-ru-tags"><span>NHS: wearables как стандарт к 2035</span><span>EHDS: единая доступность ключевых данных</span><span>Россия: цифровой профиль + ИИ + дистанционный мониторинг</span></div>
+        <div class="footer-source">[16–18, 20, 23, 33, 36]</div>
+      </section>
+
+      <section class="slide" data-slide="9" data-title="Платформа 2035">
+        <div class="eyebrow">08 · Архитектура</div>
+        <h2>Платформа 2035 — это не один продукт.<br><span class="accent">Это правила, данные и сервисы между участниками системы.</span></h2>
+        <div class="platform-diagram">
+          <div class="platform-side left-side"><span>Пациент</span><span>Клиника</span><span>Лаборатория</span><span>Wearables</span></div>
+          <div class="platform-core">
+            <div class="core-ring core-ring-1"></div><div class="core-ring core-ring-2"></div>
+            <strong>DATA<br>LAYER</strong><small>стандарты · доступ · качество · API</small>
+          </div>
+          <div class="platform-side right-side"><span>ИИ / CDS</span><span>Регулятор</span><span>Наука</span><span>Фарма</span></div>
+          <svg class="platform-lines" viewBox="0 0 1000 360" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M155 55 C360 55 360 155 480 175"/><path d="M155 135 C360 135 360 165 480 175"/><path d="M155 225 C360 225 360 185 480 175"/><path d="M155 305 C360 305 360 195 480 175"/>
+            <path d="M520 175 C640 155 640 55 845 55"/><path d="M520 175 C640 165 640 135 845 135"/><path d="M520 175 C640 185 640 225 845 225"/><path d="M520 175 C640 195 640 305 845 305"/>
+          </svg>
+        </div>
+        <p class="slide-thesis">Если данные остаются разрозненными, каждый новый ИИ-сервис снова решает задачу интеграции с нуля. Платформа переносит эту работу на общий уровень.</p>
+      </section>
+
+      <section class="slide" data-slide="10" data-title="Что может сломать сценарий">
+        <div class="eyebrow">09 · Риски</div>
+        <h2>Технологический сценарий не гарантирован.<br><span class="accent">Четыре риска важнее самого темпа появления новых моделей.</span></h2>
+        <div class="risk-grid">
+          <article><div class="risk-no">01</div><h3>Планы ≠ исполнение</h3><p>Даже подробные стратегии упираются в разнородный ИТ-ландшафт, закупки и изменение процессов.</p></article>
+          <article><div class="risk-no">02</div><h3>Доказательность</h3><p>Эффект AI-инструментов часто скромнее рекламных обещаний и зависит от реального использования.</p></article>
+          <article><div class="risk-no">03</div><h3>Данные и киберриски</h3><p>Чем связнее система, тем выше цена утечки, ошибки доступа или компрометации инфраструктуры.</p></article>
+          <article><div class="risk-no">04</div><h3>Люди и навыки</h3><p>Врачи опасаются потери компетенций, но одновременно хотят участвовать в решениях о внедрении и получать обучение.</p></article>
+        </div>
+        <div class="footer-source">NHS critique [19] · UCLA [13] · Стратегия РФ [23] · AMA [12, 41]</div>
+      </section>
+
+      <section class="slide" data-slide="11" data-title="Управленец 2035">
+        <div class="eyebrow">10 · Компетенции</div>
+        <div class="skills-layout">
+          <div>
+            <h2>Управленец 2035 должен<br><span class="accent">уметь управлять технологией, а не восхищаться ей.</span></h2>
+            <p class="skills-lead">Не обязательно программировать модель. Обязательно понимать, где она работает, как доказать эффект и когда её нужно остановить.</p>
+          </div>
+          <ol class="skills-list">
+            <li><b>ИИ- и дата-грамотность</b><span>данные, валидация, смещения, метрики</span></li>
+            <li><b>Управление изменениями</b><span>маршрут, роли, вовлечение врачей</span></li>
+            <li><b>Доказательное внедрение</b><span>пилот → метрики → решение о масштабе</span></li>
+            <li><b>Управление рисками</b><span>клинический риск, ПДн, кибербезопасность</span></li>
+            <li><b>Платформенное мышление</b><span>стандарты, API, экосистема партнёров</span></li>
+          </ol>
+        </div>
+        <div class="skills-foot"><span><b>39%</b> ключевых навыков работников изменятся к 2030</span><span><b>90%</b> рабочих мест NHS потребуют цифровых навыков в горизонте 20 лет</span></div>
+        <div class="footer-source">WEF [34] · Topol Review [35] · AMA [41]</div>
+      </section>
+
+      <section class="slide slide--final" data-slide="12" data-title="Вывод">
+        <div class="final-grid">
+          <div class="eyebrow">Вывод</div>
+          <h2>К 2035 выиграет не тот,<br>у кого больше ИИ.</h2>
+          <p class="final-statement">Выиграет система, которая связала <b>данные</b>, <b>процессы</b>, <b>доказательства</b> и <b>ответственность</b>.</p>
+          <div class="final-points"><span>платформа вместо набора изолированных сервисов</span><span>данные вместо электронных документов как конечной цели</span><span>управление внедрением вместо «закупки технологии»</span></div>
+        </div>
+        <div class="final-mark" aria-hidden="true">2035</div>
+      </section>
+    </main>
+
+    <footer class="deck-footer">
+      <div class="progress"><div class="progress-fill" id="progressFill"></div></div>
+      <div class="counter"><span id="currentSlide">01</span><span class="counter-sep">/</span><span id="totalSlides">12</span></div>
+    </footer>
+
+    <button class="nav-zone nav-zone--prev" id="prevBtn" aria-label="Предыдущий слайд"></button>
+    <button class="nav-zone nav-zone--next" id="nextBtn" aria-label="Следующий слайд"></button>
+  </div>
+
+  <aside class="source-drawer" id="sourceDrawer" aria-hidden="true">
+    <div class="source-drawer__header"><div><b>Источники</b><span>нумерация совпадает с докладом</span></div><button id="sourceClose" type="button">Закрыть</button></div>
+    <div class="source-list" id="sourceList">
+      <p><b>[1]</b> ВОЗ. Global Strategy on Digital Health.</p>
+      <p><b>[2]</b> ВОЗ. Health workforce: прогноз дефицита 11,1 млн к 2030 г.</p>
+      <p><b>[3]</b> Указ Президента РФ №309 от 07.05.2024.</p>
+      <p><b>[4]</b> Демоскоп Weekly / предварительная оценка Росстата: ОПЖ 72,8 года в 2024 г.</p>
+      <p><b>[5–9]</b> FDA / Paragon Health Institute / CRS: ИИ-медизделия и регулирование.</p>
+      <p><b>[10–12, 41]</b> AMA: использование ИИ врачами, отношение к внедрению и обучению.</p>
+      <p><b>[13]</b> Lukac P.J. et al. Ambient AI Scribes in Clinical Practice: A Randomized Trial. NEJM AI, 2025.</p>
+      <p><b>[14–15]</b> Nature Medicine / Insilico Medicine: rentosertib, фазы IIa–III.</p>
+      <p><b>[16–19, 36]</b> NHS: 10 Year Health Plan, цифровая трансформация и критика внедрения.</p>
+      <p><b>[20–21, 42–43]</b> European Health Data Space (EHDS).</p>
+      <p><b>[22]</b> China NHC / China Daily: «AI + healthcare» к 2030.</p>
+      <p><b>[23–33, 37–38]</b> Россия: Стратегия здравоохранения до 2030, Росздравнадзор, ЕГИСЗ, МосМедИИ, нацпроекты и HealthNet.</p>
+      <p><b>[34]</b> World Economic Forum. Future of Jobs Report 2025.</p>
+      <p><b>[35]</b> The Topol Review.</p>
+      <p class="source-note">Полный список URL и библиографических описаний — в исходном докладе.</p>
+    </div>
+  </aside>
+
+  <script src="app.js"></script>
+</body>
+</html>
